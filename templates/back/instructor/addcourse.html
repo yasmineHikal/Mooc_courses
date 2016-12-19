@@ -1,0 +1,42 @@
+<div class="col-lg-12">
+    <section class="panel">
+        <header class="panel-heading">
+            Add new course
+        </header>
+        <div class="panel-body">
+            <form role="form" action="addcourse.php" method="post">
+                <div class="form-group">
+                    <label >course title</label>
+                    <input type="text" name="title" class="form-control" id="exampleInputEmail1" placeholder="Enter course title">
+               <label >course description</label>
+                    <input type="text" name="desc" class="form-control" id="exampleInputEmail2" placeholder="Enter course description">
+                    <label >Select image cover</label>
+
+                    <div>
+                           <span class="btn default btn-file">
+                           <input type="file" name="cover"> </span>
+
+                    </div>
+                    <label >Select course category</label>
+                    <select class="form-control m-bot15">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                    </select>
+
+
+                </div>
+
+
+
+                </div>
+
+
+
+
+                <input type="submit" class="btn btn-success" name="SubmitAddCourse" value="add course"/>
+            </form>
+
+        </div>
+    </section>
+</div>

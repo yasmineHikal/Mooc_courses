@@ -1,0 +1,61 @@
+
+
+<aside>
+    <div id="sidebar"  class="nav-collapse ">
+        <!-- sidebar menu start-->
+
+<ul class="sidebar-menu" id="nav-accordion">
+    <li>
+        <a class="active" href="index.php">
+            <i class="icon-dashboard"></i>
+            <span>Dashboard</span>
+        </a>
+    </li>
+
+    <li class="sub-menu">
+        <a href="javascript:;" >
+            <i class="icon-user"></i>
+            <span>All Users</span>
+        </a>
+        <ul class="sub">
+            <li><a  href="users.php">All users</a></li>
+            <li><a  href="adduser.php">Add user</a></li>
+            <li><a  href="usersgroups.php">users groups</a></li>
+            <li><a  href="addusergroup.php">Add user group</a></li>
+
+        </ul>
+    </li>
+
+    <li class="sub-menu">
+        <a href="javascript:;" >
+            <i class="icon-laptop"></i>
+            <span>categories</span>
+        </a>
+        <ul class="sub">
+            <li><a  href="categories.php">All categories</a></li>
+            <li><a  href="addcategory.php">Add category</a></li>
+
+        </ul>
+    </li>
+
+
+
+
+</ul>
+
+
+        <!-- sidebar menu end-->
+    </div>
+</aside>
+
+
+<!--header end-->
+<!--sidebar start-->
+
+<!--sidebar end-->
+<!--main content start-->
+<section id="main-content">
+    <section class="wrapper">
+
+        <?php echo getErrors(); ?>
+        <?php echo getSuccess(); ?>
